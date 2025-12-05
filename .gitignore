@@ -1,0 +1,109 @@
+# Node.js (frontend)
+node_modules/
+.next/
+out/
+.env.local
+.env.development
+.env.production
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+coverage/
+.vscode/
+.DS_Store
+
+# Python (backend)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv310/
+venv/
+ENV/
+env.bak/
+*.sqlite3
+*.db
+instance/
+.env
+*.egg-info/
+*.log
+
+# OS/Editor
+Thumbs.db
+.DS_Store
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+venv310/
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# FastAPI build
+build/
+dist/
+
+# ======================
+# FASTAPI BACKEND IGNORE
+# ======================
+
+Backend/__pycache__/
+Backend/venv/
+Backend/venv310/
+Backend/venv311/
+Backend/.env
+Backend/*.env
+
+# ======================
+# NODE / NEXT.JS IGNORE
+# ======================
+
+# Dependencies
+Frontend/node_modules/
+
+# Build outputs
+Frontend/.next/
+Frontend/out/
+Frontend/.turbo/
+
+# Cache
+Frontend/.swc/
+Frontend/.vercel/
+Frontend/.npm/
+Frontend/npm-debug.log
+Frontend/yarn-debug.log
+Frontend/yarn-error.log
+
+# Next.js env files (private ONLY)
+Frontend/.env
+Frontend/.env.local
+Frontend/.env.development.local
+Frontend/.env.production.local
+Frontend/.env.test.local
+
+# ======================
+# SYSTEM / EDITOR FILES
+# ======================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
