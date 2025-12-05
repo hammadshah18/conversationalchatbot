@@ -6,4 +6,4 @@ uvicorn
 python-multipart
 jinja2
 python-dotenv
-sqlite3-binary
+
