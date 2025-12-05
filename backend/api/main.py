@@ -23,7 +23,6 @@ llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
     google_api_key=os.getenv("GOOGLE_API_KEY")
 )
-
 BASE_DIR = Path(__file__).resolve().parent.parent  # backend/
 DB_FILE = str(BASE_DIR / "chatbot.db")
 
